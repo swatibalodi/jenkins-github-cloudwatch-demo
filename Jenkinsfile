@@ -3,9 +3,9 @@ pipeline {
   environment {
     APP_NAME = 'myapp'
     REMOTE_USER = 'ubuntu'          
-    REMOTE_HOST = '<EC2_PUBLIC_IP>'  
+    REMOTE_HOST = '34.201.98.236'  
     SSH_CRED = 'ec2-ssh-key'        
-    AWS_REGION = 'ap-south-1'       
+    AWS_REGION = 'us-east-1'       
     LOG_GROUP = '/myapp/logs'
   }
 
